@@ -1,0 +1,42 @@
+#--------------------------------------
+# Filesystem Hierarchy Standard
+
+#--------------------------------------
+# XDG Base Directory
+XDG_CONFIG_HOME	$HOME/.config:/etc
+XDG_CACHE_HOME	$HOME/.cache:/var/cache
+XDG_DATA_HOME	$HOME/.local/share:/usr/share
+XDG_STATE_HOME	$HOME/.local/state:/var/lib
+XDG_RUNTIME_DIR	/run/user/$UID
+XDG_DATA_DIRS	/usr/local/share:/usr/share
+XDG_CONFIG_DIRS	/etc/xdg
+
+#--------------------------------------
+# XDG User Directory
+XDG_DESKTOP_DIR="%HOME%\Desktop"
+XDG_DOCUMENTS_DIR="%HOME%\Documents"
+XDG_DOWNLOAD_DIR="%HOME%\Downloads"
+XDG_MUSIC_DIR="%HOME%\Music"
+XDG_PICTURES_DIR="%HOME%\Pictures"
+XDG_PUBLICSHARE_DIR="%HOME%\Public"
+XDG_TEMPLATES_DIR="%HOME%\Templates"
+XDG_VIDEOS_DIR="%HOME%\Videos"
+
+#--------------------------------------
+# Windows Specific User Folders
+#Contacts
+#Favorites
+#Links
+#Serches
+#SavedGames
+
+# Other Windows Path
+USERPROFILE=%HOME%
+APPDATA=%HOME%\AppData\Roaming
+LOCALAPPDATA=%HOME%\AppData\Local
+ALLUSERSPROFILE=ProgramData
+PROGRAMDATA=ProgramData
+PROGRAMFILE=ProgramFiles
+PUBLIC=Public
+TEMP=Temp
+TMP=Temp
