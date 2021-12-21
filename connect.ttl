@@ -1,0 +1,416 @@
+; connect.ttl
+
+; ＜使い方＞
+; 別のマクロで5つの変数（hostname,ipaddr,protocol,port,username）を指定し、最後にincludeでこのマクロを呼び出す
+; ※SSH接続はパスワード認証のみ対応（証明書認証は未検証で未対応）
+; ※注意：マクロの文字コードはShift-JIS（＋改行コードCRLF）
+
+; ======================================================================================================
+; ★オプション - デフォルト以外のINIファイル指定
+
+; デフォルト（TERATERM.INI）以外のINIファイルを使用する
+; （1=有効、0=無効）
+
+    _enableCustomIni_   = 1
+
+; カスタムのINIファイルのパス（絶対 or 相対）指定
+; 相対パスの場合はこの'connect.ttl'があるフォルダの中からたどる
+; ファイル指定が無い場合はTeratermデフォルトのINIファイルを使用
+; またここでのパス指定とは関係なく、ホスト名と同じ名前のINIファイルがマクロと同じフォルダにあれば、そちらを優先して利用する
+
+    _customIni_         = 'custom.ini'
+
+
+; ---------------------------------------------------
+; ★オプション - キーボード設定ファイル指定
+
+; デフォルト（TERATERM.INI）以外のINIファイルを使用する
+; （1=有効、0=無効）
+
+    _enableKeyboard_   = 1
+
+; カスタムのキーボード設定用ファイル（cnf）のパス（絶対 or 相対）指定
+; 相対パスの場合はこの'connect.ttl'があるフォルダの中からたどる
+; ファイル指定が無い場合はTeratermデフォルトのcnfファイルを使用
+
+    _keyboardCnf_         = 'myKeyboard.cnf'
+
+
+; ---------------------------------------------------
+; ★オプション - 自動ログ取得
+
+; 指定したフォルダへのログ取得を自動開始する
+; 無効の場合は、INIファイルの設定に従う
+; （1=有効、0=無効）
+
+    _enableLogging_     = 1
+
+; ログ保存先フォルダ（絶対 or 相対パス）の指定
+; 相対パスの場合はこの'connect.ttl'がある階層に指定したフォルダが作成される
+; ログファイル自体の名前は勝手に'YYYYMMDD_hhmmss_hostname.log'になる
+; もしフォルダ指定が無い場合はINIファイルの設定に従う
+
+    _customLogDir_      = 'teraterm_log'
+
+
+; ---------------------------------------------------
+; ★オプション - 追加マクロの実行
+
+; このマクロの最後に、指定した追加のマクロを実行する
+; （1=有効、0=無効）
+
+    _enableOptMacro_    = 1
+
+; 追加のマクロファイルのパス（絶対 or 相対）指定
+; 相対パスの場合はこの'connect.ttl'があるフォルダからたどる
+; もしファイル指定が無い場合は特に何もしない
+
+    _optMacro_          = 'opt.ttl'
+
+
+; ---------------------------------------------------
+; ★オプション - パスワードファイル
+
+; パスワードファイルがあればそれを使って自動ログイン
+; （1=有効、0=無効）
+; ※パスワードの復元は比較的簡単にできてしまうので注意
+; ※なので、せめてもの対策として、このマクロ内ではパスワードに関わる記述はなるべくわかりにくいようにしている
+
+    _enablePw_          = 1
+
+
+; ======================================================================================================
+; ◆ このマクロが単体で実行された場合（正確には必要な変数指定が無い場合）は何もせず終了する
+; 　　　　or
+; 各変数が定義されていた場合は、呼び出し元のマクロで指定したグローバル変数を退避
+
+    ifdefined hostname
+    if result==0 then
+        end
+    else
+        _hostname = hostname
+    endif
+
+    ifdefined ipaddr
+    if result==0 then
+        end
+    else
+        _ipaddr   = ipaddr
+    endif
+
+    ifdefined protocol
+    if result==0 then
+        end
+    else
+        _protocol = protocol
+    endif
+
+    ifdefined port
+    if result==0 then
+        end
+    else
+        _port     = port
+    endif
+
+    ifdefined username
+    if result==0 then
+        end
+    else
+        _username = username
+    endif
+
+
+; ---------------------------------------------------
+; ◆ 各種変数初期化
+; ※Teratermマクロにローカル変数は無いため、すべてグローバル変数となる点に注意すること
+
+    inipath = ''
+    temp = 'autologin.ini'
+    idpromptrgx = '(login|Login|LOGIN|user|User|USER|id|Id|ID)'
+    pwpromptrgx = '(password|Password|PASSWORD|^\*+.+*$)'
+    kInfAwlaubSjJmOy = ''
+    iNpwapbbBWpoBXLQ = ''
+    efawUXylGtToybae = ''
+    VsljOJdryuoiatvV = ''
+    nvODQsmlXcsSbvds = ''
+
+; ---------------------------------------------------
+; ◆ メイン
+
+    timeout=3
+
+    if _enableCustomIni_==1 then
+        strlen _customIni_
+        if result>0 then
+            call enableCustomIni
+        endif
+    endif
+
+    if _enableKeyboard_==1 then
+        strlen _keyboardCnf_
+        if result>0 then
+            call enableKeyboardCnf
+        endif
+    endif
+
+    if _enablePw_==1 then
+        call enablePw
+    endif
+
+
+    strmatch _protocol '(telnet|Telnet|TELNET)'
+    if result==1 then
+        call connectTelnet
+    endif
+
+
+    strmatch _protocol '(ssh|Ssh|SSH)'
+    if result==1 then
+        call connectSsh
+    endif
+
+
+    if _enableLogging_==1 then
+        strlen _customLogDir_
+        if result>0 then
+            call enableLogging
+        endif
+    endif
+
+
+    if _enableOptMacro_==1 then
+        strlen _optMacro_
+        if result>0 then
+            call enableOptMacro
+        endif
+    endif
+
+exit
+
+
+; ---------------------------------------------------
+; ◆ サブ - INIファイル
+
+:enableCustomIni
+
+    getdir macrodir
+    inipath = macrodir
+    hostinifile = hostname
+    strconcat hostinifile '.ini'
+    filesearch hostinifile
+    if result==1 then
+        strconcat inipath '\'
+        strconcat inipath hostinifile
+    else
+        strmatch _customIni_ '[A-Za-z\\][\:\\]\\*.+'
+        if result==1 then
+            inipath = _customIni_
+        else
+            strconcat inipath '\'
+            strconcat inipath _customIni_
+        endif
+    endif
+
+return
+
+
+; ---------------------------------------------------
+; ◆ サブ - キーボード設定cnfファイル
+
+:enableKeyboardCnf
+
+    getdir macrodir
+    cnfpath = macrodir
+    strmatch _keyboardCnf_ '[A-Za-z\\][\:\\]\\*.+'
+    if result==1 then
+        cnfpath = _keyboardCnf_
+    else
+      strconcat cnfpath '\'
+      strconcat cnfpath _keyboardCnf_
+    endif
+
+return
+
+
+; ---------------------------------------------------
+; ◆ サブ - TELNET接続
+
+:connectTelnet
+
+    msg = _ipaddr
+    strconcat msg ':'
+    strconcat msg _port
+    strconcat msg ' /nossh /T=1 /W='
+    strconcat msg _hostname
+    strlen inipath
+    if result>0 then
+        filesearch inipath
+        if result==1 then
+            strconcat msg ' /F='
+            strconcat msg inipath
+        endif
+    endif
+    strlen cnfpath
+    if result>0 then
+        filesearch cnfpath
+        if result==1 then
+            strconcat msg ' /K='
+            strconcat msg cnfpath
+        endif
+    endif
+    connect msg
+    if result<>2 then
+        messagebox 'It could not be connected.' 'Connection Error'
+        end
+    endif
+    setsync 1
+    waitregex pwpromptrgx idpromptrgx
+    if result==1 then
+        flushrecv
+        strlen efawUXylGtToybae
+        if result>0 then
+            sendln kInfAwlaubSjJmOy
+        endif
+        waitregex '.+'
+    elseif result==2 then
+        flushrecv
+        sendln _username
+        waitregex pwpromptrgx
+        strlen efawUXylGtToybae
+        if result>0 then
+            sendln kInfAwlaubSjJmOy
+        endif
+        waitregex '.+'
+    endif
+    setsync 0
+
+return
+
+
+; ---------------------------------------------------
+; ◆ サブ - SSH接続
+
+:connectSsh
+
+    msg = _ipaddr
+    strconcat msg ':'
+    strconcat msg _port
+    strconcat msg ' /ssh /2 /auth=passwd /user='
+    strconcat msg _username
+    strconcat msg ' /W='
+    strconcat msg _hostname
+    strlen inipath
+    if result>0 then
+        filesearch inipath
+        if result==1 then
+            strconcat msg ' /F='
+            strconcat msg inipath
+        endif
+    endif
+    if result>0 then
+        filesearch cnfpath
+        if result==1 then
+            strconcat msg ' /K='
+            strconcat msg cnfpath
+        endif
+    endif
+    strlen efawUXylGtToybae
+    if result>0 then
+        strconcat msg ' /passwd="'
+        strconcat msg kInfAwlaubSjJmOy
+        strconcat msg '"'
+    else
+        strconcat msg ' /ask4passwd'
+    endif
+    connect msg
+    if result<>2 then
+        messagebox 'It could not be connected.' 'Connection Error'
+        end
+    endif
+    waitregex '.+'
+    setsync 0
+
+return
+
+
+; ---------------------------------------------------
+; ◆ サブ - ログ取得
+
+:enableLogging
+
+    strmatch _customLogDir_ '[A-Za-z\\][\:\\]\\*.+'
+    if result==1 then
+        logdir = _customLogDir_
+    else
+        getdir macrodir
+        logdir = macrodir
+        strconcat logdir '\'
+        strconcat logdir _customLogDir_
+    endif
+    strconcat logdir '\'
+    foldersearch logdir
+    if result==0 then
+        makelogdir = 'cmd /q /c md '
+        strconcat makelogdir logdir
+        exec makelogdir
+        mpause 600
+    endif
+    getdate datetime '%Y%m%d_%H%M%S_'
+    logfile = datetime
+    strconcat logfile _hostname
+    strconcat logfile '.log'
+    logpath = logdir
+    strconcat logpath logfile
+
+    loginfo autologfile
+    if result<>-1 then
+        logclose
+        filecopy autologfile logpath
+        filedelete autologfile
+    endif
+    logopen logpath 0 1 0 1 1
+    loginfo logging
+
+return
+
+
+; ---------------------------------------------------
+
+:enablePw
+
+    filestat temp size
+    if result==0 then
+        ispassword temp _hostname
+        if result==1 then
+            getpassword temp _hostname kInfAwlaubSjJmOy
+            tolower efawUXylGtToybae kInfAwlaubSjJmOy
+        endif
+        
+        enableid = _hostname
+        strconcat enableid '-en'
+        ispassword temp enableid
+        if result==1 then
+            getpassword temp enableid nvODQsmlXcsSbvds
+            _enablekey = nvODQsmlXcsSbvds
+        endif
+
+    endif
+
+return
+
+
+; ---------------------------------------------------
+; ◆ サブ - 追加マクロ実行
+
+:enableOptMacro
+
+    flushrecv
+    filesearch _optMacro_
+    if result==1 then
+        include _optMacro_
+    endif
+
+return
+
+
+; ======================================================================================================
