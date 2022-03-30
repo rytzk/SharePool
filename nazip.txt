@@ -767,7 +767,7 @@ dse	づぇ
 dso	づぉ
 dsn	づぁん
 dsz	づぁん
-dsg	づぃん
+dsg	ですが
 dsk	づぃん
 dsb	づぅん
 dsp	づぅん
@@ -889,9 +889,9 @@ hn	はん
 hz	はず
 hg	ひん
 hk	ひん
-hb	ひん
+hb	ふん
 hp	ふん
-hd	ふん
+hd	へん
 ht	へん
 hm	ほん
 hq	ほん
@@ -1103,7 +1103,21 @@ pi	ぴ
 pu	ぷ
 pe	ぺ
 po	ぽ
+pn	ぱん
+pz	ぱん
+pg	ぴん
+pk	ぴん
+pb	ぷん
 pp	っ	p
+pd	ぺん
+pt	ぺん
+pm	ぽん
+pq	ぽん
+pf	ぱい
+pv	ぷう
+pl	ぺい
+ps	ぺい
+px	ぽう
 pha	ぱー
 phi	ぴー
 phu	ぷー
