@@ -4,7 +4,7 @@ vvk	↑
 vvl	→
 vka	ヵ
 vke	ヶ
-
+-	ー
 a	あ
 i	い
 u	う
