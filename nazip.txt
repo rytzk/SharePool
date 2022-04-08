@@ -1483,11 +1483,12 @@ ww	っ	w
 wl	うぇい
 ws	うぇい
 wx	うぉう
-wha	うぁ
-whi	うぃ
-whu	う
-whe	うぇ
-who	うぉ
+wha	わー
+whi	うぃー
+whu	うー
+whe	うぇー
+who	うぉー
+wva	うぁ
 wya	ゎ
 wyi	ゐ
 wye	ゑ
