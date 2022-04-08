@@ -4,6 +4,9 @@ vvj	↓
 vvk	↑
 vvl	→
 vwl	⇒
+vv[	[
+vv]	]
+
 vka	ヵ
 vke	ヶ
 kre	これ
