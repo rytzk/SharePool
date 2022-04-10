@@ -1,3 +1,4 @@
+入力	読み
 -	ー
 a	あ
 i	い
@@ -35,9 +36,8 @@ vv'	'
 vl	えい
 vs	あ	s
 vx	おう
+vc	あ	c
 vr	ある
-vjr	あちら
-vjj	あっち
 v;	あれ
 vwa	うぁ
 vwi	うぃ
@@ -104,7 +104,7 @@ kv	くう
 kl	けい
 ks	けい
 kx	こう
-kc	ここ
+kc	こ	c
 kr	から
 kre	くれ
 kru	くる
@@ -161,8 +161,6 @@ kjl	きぇい
 kjs	きぇい
 kjx	きょう
 kjh	きょう
-kjr	こちら
-kjj	こっち
 kwa	くぁ
 kwi	くぃ
 kwu	くぅ
@@ -320,7 +318,6 @@ sno	その
 sz	さん
 sg	しん
 sk	しん
-sko	そこ
 sb	すん
 sp	すん
 sd	せん
@@ -331,11 +328,11 @@ sf	さい
 sv	すう
 sl	せい
 ss	っ	s
+sst	そして
 sx	そう
-sc	そこ
-sr	する
+sc	そ	c
+sr	す	r
 sra	さら
-sre	すれ
 s;	それ
 hsa	さー
 hsi	しー
@@ -411,8 +408,6 @@ sjl	しぇい
 sjs	しぇい
 sjx	しょう
 sjh	しょう
-sjr	そちら
-sjj	そっち
 swa	すぁ
 swi	すぃ
 swu	すぅ
@@ -581,6 +576,7 @@ jw	じゅう
 jl	じぇい
 js	じぇい
 jx	じょう
+jr	じ	r
 jj	っ	j
 jha	じゃー
 jhi	じー
@@ -727,7 +723,7 @@ ca	ちゃ
 ci	ち
 cu	ちゅ
 ce	ちぇ
-co	ちょ
+co	こ
 cn	ちゃん
 cz	ちゃん
 cg	ちん
@@ -746,6 +742,7 @@ cl	ちぇい
 cs	ちぇい
 cx	ちょう
 cc	っ	c
+cr	ちら
 cha	ちゃ
 chi	ちー
 chu	ちゅ
@@ -790,9 +787,9 @@ dv	でゅう
 dl	でい
 ds	で	s
 dx	どう
-dc	だち
+dc	ど	c
 dr	であ	r
-d;	どこ
+d;	どれ
 dha	だー
 dhi	でぃ
 dhu	でゅ
@@ -822,7 +819,7 @@ dyi	ぢ
 dyu	ぢゅ
 dye	ぢぇ
 dyo	ぢょ
-dyn	ぢゃん
+dyn	だよね
 dyz	ぢゃん
 dyg	ぢぃん
 dyk	ぢぃん
@@ -863,8 +860,6 @@ djl	ぢぇい
 djs	ぢぇい
 djx	ぢょう
 djh	ぢょう
-djr	どちら
-djj	どっち
 dza	づぁ
 dzi	づぃ
 dzu	づ
@@ -1302,8 +1297,9 @@ mi	み
 mu	む
 me	め
 mo	も
-mn	もの
-mz	まん
+mn	まん
+mno	もの
+mz	まず
 mg	みん
 mk	みん
 mb	むん
