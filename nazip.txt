@@ -1,35 +1,4 @@
 -	ー
-vvh	←
-vvj	↓
-vvk	↑
-vvl	→
-vwh	<=
-vwl	=>
-vv[	[
-vv]	]
-vv;	;
-vv'	'
-
-kno	この
-kna	かな
-kta	かた
-kre	これ
-kru	くる
-kro	ころ
-gta	がた
-gra	がら
-sno	その
-sko	そこ
-sre	それ
-sra	さら
-dkr	だから
-dko	どこ
-ngr	ながら
-nde	ので
-ndo	など
-mda	まだ
-mde	まで
-
 a	あ
 i	い
 u	う
@@ -53,10 +22,38 @@ vq	おん
 vf	あい
 vy	あい
 vv	-
-vw	=
+vvf	=>
+vvb	<=
+vvh	←
+vvj	↓
+vvk	↑
+vvl	→
+vv[	[
+vv]	]
+vv;	;
+vv'	'
 vl	えい
 vx	おう
 vr	ある
+vwa	うぁ
+vwi	うぃ
+vwu	うぅ
+vwe	うぇ
+vwo	うぉ
+vwn	うぁん
+vwz	うぁん
+vwg	うぃん
+vwk	うぃん
+vwd	うぇん
+vwt	うぇん
+vwm	うぉん
+vwq	うぉん
+vwf	うぁい
+vwy	うぁい
+vwl	うぇい
+vws	うぇい
+vwx	うぉう
+vwh	うぉう
 vha	ヴぁ
 vhi	ヴぃ
 vhu	ヴ
@@ -86,6 +83,8 @@ ku	く
 ke	け
 ko	こ
 kn	かん
+kno	この
+kna	かな
 kz	かん
 kg	きん
 kk	っ	k
@@ -93,6 +92,7 @@ kb	くん
 kp	くん
 kd	けん
 kt	こと
+kta	かた
 km	こん
 kq	こん
 kf	かい
@@ -101,6 +101,9 @@ kl	けい
 ks	けい
 kx	こう
 kr	から
+kre	これ
+kru	くる
+kro	ころ
 kha	かー
 khi	きー
 khu	くー
@@ -215,6 +218,7 @@ gb	ぐん
 gp	ぐん
 gd	げん
 gt	ごと
+gta	がた
 gm	ごん
 gq	ごん
 gf	がい
@@ -223,6 +227,7 @@ gl	げい
 gs	げい
 gx	ごう
 gr	ごろ
+gra	がら
 gha	がー
 ghi	ぎー
 ghu	ぐー
@@ -303,9 +308,11 @@ su	す
 se	せ
 so	そ
 sn	さん
+sno	その
 sz	さん
 sg	しん
 sk	しん
+sko	そこ
 sb	すん
 sp	すん
 sd	せん
@@ -319,6 +326,8 @@ ss	っ	s
 sx	そう
 sc	そして
 sr	する
+sra	さら
+sre	それ
 hsa	さー
 hsi	しー
 hsu	すー
@@ -757,6 +766,8 @@ do	ど
 dn	だん
 dg	だが
 dk	だ	k
+dkr	だから
+dko	どこ
 db	どぅん
 dp	どぅん
 dd	っ	d
@@ -894,10 +905,13 @@ no	の
 nn	ん
 nz	なん
 ng	にん
+ngr	ながら
 nk	にん
 nb	ぬん
 np	ぬん
 nd	ねん
+nde	ので
+ndo	など
 nt	ねん
 nm	のん
 nq	のん
@@ -937,6 +951,7 @@ nyl	にぇい
 nys	にぇい
 nyx	にょう
 nyh	にょう
+nyr	によ	r
 nja	にゃあ
 nji	にい
 nju	にゅう
@@ -1280,6 +1295,8 @@ mk	みん
 mb	むん
 mp	むん
 md	めん
+mda	まだ
+mde	まで
 mt	また
 mm	もん
 mq	もん
@@ -1495,7 +1512,6 @@ whi	うぃー
 whu	うー
 whe	うぇー
 who	うぉー
-wva	うぁ
 wyi	ゐ
 wye	ゑ
 ;a	ぁ
