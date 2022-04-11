@@ -206,6 +206,7 @@ qw	きゅう
 ql	きぇい
 qs	きぇい
 qx	きょう
+qc	きょく
 qha	きゃー
 qhi	きー
 qhu	きゅー
