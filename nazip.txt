@@ -991,7 +991,7 @@ njh	にょう
 njx	にょう
 ha	は
 hi	ひ
-hu	ふ
+hu	ひゅ
 he	へ
 ho	ほ
 hn	はん
@@ -1006,12 +1006,12 @@ hto	ひと
 hm	ほん
 hq	ほん
 hf	はい
-hv	ふう
+hv	ひゅう
 hl	へい
 hx	ほう
 hha	はー
 hhi	ひー
-hhu	ふー
+hhu	ひゅー
 hhe	へー
 hho	ほー
 hya	ひゃ
