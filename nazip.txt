@@ -377,7 +377,7 @@ shk	しぃん
 shb	しゅん
 shp	しゅん
 shd	しぇん
-sht	しぇん
+sht	しゅつ
 shm	しょん
 shq	しょん
 shf	しゃい
@@ -446,8 +446,8 @@ xk	しかし
 xb	しゅん
 xp	しゅん
 xd	しぇん
-xt	し	t
-xm	し	m
+xt	した
+xm	しま
 xq	しょん
 xf	しゃい
 xy	しゃい
@@ -456,11 +456,13 @@ xv	しゅう
 xl	しぇい
 xs	しぇい
 xx	しょう
+xc	しつ
 xha	しゃー
 xhi	しー
 xhu	しゅー
 xhe	しぇー
 xho	しょー
+xht	しゅつ
 xhc	しょうち
 za	ざ
 zi	じ
