@@ -95,6 +95,7 @@ kk	っ	k
 kb	くん
 kp	くん
 kd	けん
+kdo	けど
 kt	こと
 kta	かた
 km	こん
