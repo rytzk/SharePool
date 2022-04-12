@@ -573,6 +573,7 @@ to	と
 tn	たん
 tg	ちん
 tk	と	k
+tkr	ところ
 tb	た	b
 tp	つん
 td	てん
@@ -873,9 +874,10 @@ ne	ね
 no	の
 nn	ん
 nz	なん
-ng	んぐ
+ng	にん
+ng;	んぐ
 ngr	ながら
-nk	にん
+nk	な	k
 nb	ねば
 np	ぬん
 nd	ねん
@@ -1452,7 +1454,8 @@ wo	を
 wn	わん
 wz	わん
 wg	うぃん
-wk	うぃん
+wk	わ	k
+wkr	わか	r
 wb	うん
 wp	うん
 wd	うぇん
