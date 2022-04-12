@@ -685,13 +685,13 @@ co	こ
 cn	ちゃん
 cz	ちゃん
 cg	ちん
-ck	ちん
+ck	っく
 cb	ちゅん
 cp	ちゅん
 cd	ちぇん
 ct	して
 cm	ちょん
-cq	ちょん
+cq	っく
 cf	ちゃい
 cy	ちゃい
 cv	ちゅう
