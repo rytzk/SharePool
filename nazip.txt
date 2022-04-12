@@ -198,7 +198,7 @@ ql	きぇい
 qs	きぇい
 qx	きょう
 qc	きょく
-q;	き
+q;	く
 qha	きゃー
 qhi	きー
 qhu	きゅー
@@ -227,7 +227,7 @@ gs	げい
 gx	ごう
 gr	ごろ
 gra	がら
-g;	ぐ
+g;	っぐ
 gha	がー
 ghi	ぎー
 ghu	ぐー
@@ -370,6 +370,7 @@ shl	しぇい
 shs	しぇい
 shx	しょう
 shh	しょう
+sh;	っしゅ
 sja	しゃあ
 sji	しい
 sju	しゅう
@@ -433,7 +434,7 @@ xl	しぇい
 xs	しかし
 xx	しょう
 xc	しつ
-x;	しゅ
+x;	っくす
 xha	しゃー
 xhi	しー
 xhu	しゅー
@@ -579,7 +580,7 @@ ts	てい
 tx	とう
 tc	たち
 tr	たら
-t;	と
+t;	っと
 tha	たー
 thi	てぃ
 thu	てゅ
@@ -590,7 +591,7 @@ thy	てぃー
 thv	てゅー
 thw	てゅー
 thx	ありがとう
-th;	とぅ
+th;	っとぅ
 tya	ちゃ
 tyi	ち
 tyu	ちゅ
@@ -656,7 +657,7 @@ tzl	つぇい
 tzs	つぇい
 tzx	つぉう
 tzh	つぉう
-tz;	つ
+tz;	っつ
 twa	とぁ
 twi	とぃ
 twu	とぅ
@@ -700,7 +701,7 @@ cs	ちぇい
 cx	ちょう
 cc	っ	c
 cr	ちら
-c;	く
+c;	っく
 cha	ちゃ
 chi	ちー
 chu	ちゅ
@@ -724,7 +725,7 @@ chl	ちぇい
 chs	ちぇい
 chx	ちょう
 chh	ちょう
-ch;	ち
+ch;	っち
 da	だ
 di	でぃ
 du	づ
@@ -756,7 +757,7 @@ dx	どう
 dc	ど	c
 dr	であ	r
 drx	だろう
-d;	ど
+d;	っど
 d'	どれ
 dha	だー
 dhi	でぃ
@@ -767,7 +768,7 @@ dhy	でぃー
 dhv	でゅー
 dhw	でゅー
 dhh	では
-dh;	どぅ
+dh;	っどぅ
 dya	ぢゃ
 dyi	ぢ
 dyu	ぢゅ
@@ -833,7 +834,7 @@ dzl	づぇい
 dzs	づぇい
 dzx	づぉう
 dzh	づぉう
-dz;	づ
+dz;	っづ
 dwa	どぁ
 dwi	どぃ
 dwu	どぅ
@@ -1152,7 +1153,7 @@ pv	ぷう
 pl	ぺい
 ps	ぽい
 px	ぽう
-p;	ぷ
+p;	っぷ
 pha	ぱー
 phi	ぴー
 phu	ぷー
