@@ -190,7 +190,7 @@ qg	きん
 qk	きゃく
 qb	きゅん
 qp	きゅん
-qd	きぇん
+qd	ください
 qt	きつ
 qm	きょん
 qq	っ	q
@@ -315,6 +315,7 @@ sb	すん
 sp	すん
 sd	せん
 st	し	t
+stu	せつ
 sm	しま
 sq	そん
 sf	さい
@@ -695,13 +696,13 @@ con	こに
 cn	ちゃん
 cz	ちゃん
 cg	ちん
-ck	っく
+ck	ちく
 cb	ちゅん
 cp	ちゅん
 cd	ちぇん
 ct	くと
 cm	ちょん
-cq	っく
+cq	ちゃく
 cf	ちゃい
 cy	ちゃい
 cv	ちゅう
@@ -720,7 +721,7 @@ cho	ちょ
 chn	ちゃん
 chz	ちゃん
 chg	ちん
-chk	ちん
+chk	ちょく
 chb	ちゅん
 chp	ちゅん
 chd	ちぇん
