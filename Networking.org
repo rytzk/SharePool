@@ -1,0 +1,734 @@
+* ネットワーク
+:PROPERTIES:
+:CREATED:  [2022-03-25 Fri 02:07]
+:END:
+
+** モデル
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:14]
+:END:
+
+*** OSI参照モデル
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:15]
+:END:
+
+**** L7
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:16]
+:END:
+
+アプリケーション層
+
+**** L6
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:17]
+:END:
+
+プレゼンテーション層
+
+**** L5
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:17]
+:END:
+
+セッション層
+
+**** L4
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:18]
+:END:
+
+トランスポート層
+
+**** L3
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:18]
+:END:
+
+ネットワーク層
+
+**** L2
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:18]
+:END:
+
+データリンク層
+
+**** L1
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:18]
+:END:
+
+物理層
+
+*** TCP/IP
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:16]
+:END:
+
+** プロトコル・仕様
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:20]
+:END:
+
+*** アプリケーション用
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 21:57]
+:END:
+
+**** ファイル送受信・共有
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 12:58]
+:END:
+
+***** HTTP
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 12:59]
+:END:
+
+***** FTP
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 12:59]
+:END:
+
+***** NFS
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 13:00]
+:END:
+
+***** SMB
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 13:00]
+:END:
+
+**** メール
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:48]
+:END:
+
+***** SMTP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:21]
+:END:
+
+***** IMAP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:21]
+:END:
+
+***** POP3
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:21]
+:END:
+
+**** 同期
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:49]
+:END:
+
+*** データ転送用
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 21:59]
+:END:
+
+**** IP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:49]
+:END:
+
+***** IPv4
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:09]
+:END:
+
+****** iPv4 addressing
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:06]
+:END:
+
+******* Class A
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:08]
+:END:
+
+******* Class B
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:08]
+:END:
+
+******* Class C
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:08]
+:END:
+
+******* Class D
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:08]
+:END:
+
+******* Class E
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:08]
+:END:
+
+******* CIDR
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:09]
+:END:
+
+******* Special-use addresses
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:13]
+:END:
+
+***** IPv6
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:09]
+:END:
+
+**** TCP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:49]
+:END:
+
+**** UDP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:49]
+:END:
+
+**** ICMP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:14]
+:END:
+
+**** トンネル・VPN
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:17]
+:END:
+
+***** L2トンネリング
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:17]
+:END:
+
+****** L2F
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:18]
+:END:
+
+****** PPTP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:18]
+:END:
+
+****** L2TP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:19]
+:END:
+
+***** L3トンネリング
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:18]
+:END:
+
+****** IPSec
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:53]
+:END:
+
+****** GRE
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:18]
+:END:
+
+***** OpenVPN
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:35]
+:END:
+
+***** Wireguard
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:35]
+:END:
+
+*** 管理・制御用
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 21:56]
+:END:
+
+**** LAN
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:53]
+:END:
+
+***** VLAN
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:54]
+:END:
+
+***** STP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:54]
+:END:
+
+****** PVSTP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:54]
+:END:
+
+****** RSTP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:54]
+:END:
+
+****** RPVSTP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:55]
+:END:
+
+***** HSRP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:55]
+:END:
+
+***** VRRP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:55]
+:END:
+
+***** Ethernet
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:04]
+:END:
+
+***** MAC
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:14]
+:END:
+
+***** PPP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:37]
+:END:
+
+***** ATM
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:37]
+:END:
+
+***** 無線
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:01]
+:END:
+
+****** IEEE802.11
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:23]
+:END:
+
+****** CSMA/CA
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:23]
+:END:
+
+****** 無線認証
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:27]
+:END:
+
+******* WEP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:27]
+:END:
+
+******* WPA
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:27]
+:END:
+
+******* WPA2
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:27]
+:END:
+
+******* WPA3
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:27]
+:END:
+
+**** WAN
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:53]
+:END:
+
+***** PPPoE
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:20]
+:END:
+
+***** L2-VPN
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:33]
+:END:
+
+広域イーサネット
+
+***** L3-VPN
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:33]
+:END:
+
+IP-VPN
+
+**** ルーティングプロトコル
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:40]
+:END:
+
+***** IGP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:50]
+:END:
+
+****** RIP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:51]
+:END:
+
+****** EIGRP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:51]
+:END:
+
+****** OSPF
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:51]
+:END:
+
+****** IS-IS
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:51]
+:END:
+
+***** EGPs
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:50]
+:END:
+
+****** EGP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:50]
+:END:
+
+****** BGP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:50]
+:END:
+
+**** 認証関連
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 12:59]
+:END:
+
+***** Kerberos
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 13:01]
+:END:
+
+***** RADIUS
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 13:01]
+:END:
+
+***** LDAP
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 13:02]
+:END:
+
+***** EAP
+:PROPERTIES:
+:CREATED:  [2022-04-07 Thu 13:02]
+:END:
+
+****** EAPOL
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:56]
+:END:
+
+****** PEAP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:56]
+:END:
+
+***** SSL/TLS
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:26]
+:END:
+
+**** アドレス解決・変換等
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:14]
+:END:
+
+***** DNS
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:15]
+:END:
+
+***** ARP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:15]
+:END:
+
+****** GARP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:24]
+:END:
+
+****** Proxy ARP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:24]
+:END:
+
+****** ARP Probe
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:25]
+:END:
+
+***** NAT
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:15]
+:END:
+
+****** NAPT
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:15]
+:END:
+
+***** Proxy
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:44]
+:END:
+
+**** リモート管理・監視
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:41]
+:END:
+
+***** Telnet
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:43]
+:END:
+
+***** RSH
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:43]
+:END:
+
+***** SSH
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:43]
+:END:
+
+****** SOCKS
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:43]
+:END:
+
+***** VNC
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:43]
+:END:
+
+***** RDP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:44]
+:END:
+
+***** SNMP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:41]
+:END:
+
+****** MIB
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:41]
+:END:
+
+***** Syslog
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:41]
+:END:
+
+**** 音声通信
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:46]
+:END:
+
+***** SBC
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:46]
+:END:
+
+***** VoIP
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:46]
+:END:
+
+** 関連技術
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:22]
+:END:
+
+*** 暗号
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:42]
+:END:
+
+**** OpenSSL
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 16:08]
+:END:
+
+*** OS
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:51]
+:END:
+
+**** Linux
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:51]
+:END:
+
+**** Windows
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:51]
+:END:
+
+*** ストレージ
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:42]
+:END:
+
+**** DAS
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:29]
+:END:
+
+**** NAS
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:28]
+:END:
+
+**** SAN
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:28]
+:END:
+
+***** FC
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:30]
+:END:
+
+***** ISCSI
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:30]
+:END:
+
+***** FCoE
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:30]
+:END:
+
+**** RAID
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:28]
+:END:
+
+**** ファイルシステム
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:28]
+:END:
+
+**** パーティションテーブル
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:29]
+:END:
+
+**** SCSI
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:30]
+:END:
+
+*** 文字コード
+:PROPERTIES:
+:CREATED:  [2022-04-06 Wed 18:52]
+:END:
+
+**** ASCII
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:39]
+:END:
+
+**** 日本語
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:40]
+:END:
+
+**** 大規模文字集合
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:40]
+:END:
+
+***** Unicode
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:40]
+:END:
+
+*** データベース
+*** ブロックチェーン
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 10:39]
+:END:
+
+*** コーディング
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:50]
+:END:
+
+**** プログラム言語
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:53]
+:END:
+
+**** マークアップ言語
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:54]
+:END:
+
+**** マークダウン言語
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:54]
+:END:
+
+*** データサイエンス
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:55]
+:END:
+
+*** その他標準
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:41]
+:END:
+
+**** Dublin Core
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:51]
+:END:
+
+** 参考資料
+:PROPERTIES:
+:CREATED:  [2022-04-13 Wed 12:49]
+:END:
+
