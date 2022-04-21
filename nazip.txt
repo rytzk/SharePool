@@ -1,4 +1,4 @@
-ver	Ver.2022041902
+ver	Ver.2022042001
 -	ー
 a	あ
 i	い
@@ -377,7 +377,6 @@ sje	しぇい
 sjo	しょう
 sjn	しゃん
 sjz	しゃん
-sjk	しき
 sjb	しゅん
 sjp	しゅん
 sjd	しぇん
@@ -411,7 +410,7 @@ xms	します
 xmst	しました
 xmsh	しましょう
 xq	しゃく
-xf	しゃい
+xf	しき
 xy	しゃい
 xw	しゅう
 xv	しゅう
@@ -434,7 +433,7 @@ zo	ぞ
 zn	ざん
 zz	っ	z
 zg	じん
-zk	ぜき
+zk	じん
 zb	ずん
 zp	ずん
 zd	ぜん
@@ -455,7 +454,7 @@ zhi	じー
 zhu	ずー
 zhe	ぜー
 zho	ぞー
-zhz	ぜつ
+zhk	ぜき
 zya	じゃ
 zyi	じ
 zyu	じゅ
@@ -484,7 +483,6 @@ zje	じぇい
 zjo	じょう
 zjn	じゃん
 zjz	じゃん
-zjk	じき
 zjb	じゅん
 zjp	じゅん
 zjd	じぇん
@@ -514,7 +512,7 @@ jd	じぇん
 jt	じつ
 jm	じょん
 jq	じゃく
-jf	じゃい
+jf	じき
 jy	じゃい
 jv	じゅう
 jw	じゅう
@@ -539,7 +537,7 @@ tn	たん
 tnr	とな	r
 tz	てつ
 tg	ちん
-tk	てき
+tk	ちん
 tki	とき
 tkr	ところ
 tb	た	b
@@ -564,12 +562,13 @@ thi	てぃ
 thu	てゅ
 the	てー
 tho	とー
+thk	てき
 tht	たつ
 thy	てぃー
 thv	てゅー
 thw	てゅー
+ths	たち
 thx	ありがとう
-thc	たち
 th;	っとぅ
 tya	ちゃ
 tyi	ち
@@ -681,9 +680,9 @@ de	で
 do	ど
 dn	だん
 dno	どの
-dz	だん
+dz	ぜつ
 dg	だが
-dk	でき
+dk	でぃん
 dkd	だけど
 dkn	できない
 dkr	できる
@@ -713,11 +712,11 @@ dhi	でぃ
 dhu	でゅ
 dhe	でー
 dho	どー
+dhk	でき
 dhy	でぃー
 dhv	でゅー
-dhw	でゅー
+dhs	だち
 dhh	では
-dhc	だち
 dh;	っどぅ
 dya	ぢゃ
 dyi	ぢ
@@ -773,7 +772,6 @@ nw	にゅー
 nl	ねい
 ns	な	s
 nx	のう
-nc	にち
 nr	な	r
 nha	なー
 nhi	にー
@@ -781,6 +779,7 @@ nhu	ぬー
 nhe	ねー
 nho	のー
 nhh	には
+nhc	にち
 nya	にゃ
 nyi	に
 nyu	にゅ
@@ -820,7 +819,7 @@ ho	ほ
 hn	はん
 hz	はず
 hg	ひん
-hk	へき
+hk	ひん
 hb	ふん
 hp	ふん
 hd	へん
@@ -840,6 +839,7 @@ hhi	ひー
 hhu	ひゅー
 hhe	へー
 hho	ほー
+hhk	へき
 hya	ひゃ
 hyi	ひ
 hyu	ひゅ
@@ -924,7 +924,7 @@ bo	ぼ
 bn	ばん
 bz	べつ
 bg	びん
-bk	べき
+bk	びん
 bb	っ	b
 bp	ぶん
 bd	べん
@@ -945,6 +945,7 @@ bhi	びー
 bhu	ぶー
 bhe	べー
 bho	ぼー
+bhk	べき
 bya	びゃ
 byi	び
 byu	びゅ
@@ -1146,7 +1147,7 @@ ro	ろ
 rn	らん
 rz	れつ
 rg	りん
-rk	れき
+rk	りん
 rb	れば
 rp	るん
 rd	れん
@@ -1167,6 +1168,7 @@ rhi	りー
 rhu	るー
 rhe	れー
 rho	ろー
+rhk	れき
 rya	りゃ
 ryi	り
 ryu	りゅ
@@ -1189,7 +1191,6 @@ rje	りぇい
 rjo	りょう
 rjn	りゃん
 rjz	りゃん
-rjk	りき
 rjb	りゅん
 rjp	りゅん
 rjd	りぇん
@@ -1211,7 +1212,7 @@ ld	りぇん
 lt	りつ
 lm	りょん
 lq	りゃく
-lf	りゃい
+lf	りき
 ly	りゃい
 lv	りゅう
 lw	りゅう
