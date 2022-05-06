@@ -721,10 +721,13 @@ kwt	こと
 gwt	ごと
 kwtg	ことが
 gwtg	ごとが
+kwtt	ことと
 kwtn	ことに
 kwtnh	ことには
+kwtb	ことの
 kwth	ことは
 gwth	ごとは
+kwtw	ことを
 kbn	この
 kbr	これ
 kbrg	これが
@@ -787,6 +790,7 @@ sbrh	それは
 sbrw	それを
 drx	だき
 dhk	だけ
+dtt	だった
 thm	ため
 trr	たら
 dbl	だれ
@@ -795,8 +799,13 @@ dblt	だれと
 dbln	だれに
 dblw	だれを
 drv	だろう
+drtt	であった
 drr	である
 drlb	であれば
+dkn	できな
+dknf	できない
+dknktt	できなかった
+dkms	できます
 dkmsd	できません
 dkrr	できる
 dklb	できれば
@@ -847,7 +856,9 @@ dbrg	どれが
 dbrd	どれで
 dbrn	どれに
 dbrw	どれを
+nktt	なかった
 nhgr	ながら
+nq	なく
 nklb	なければ
 nhnn	なのに
 nrb	ならば
