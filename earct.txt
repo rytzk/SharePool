@@ -222,16 +222,16 @@ xe	しぇ
 xi	し
 xo	しょ
 xu	しゅ
-bb	っb
-cc	っc
-ff	っf
-kk	っk
-pp	っp
-qq	っq
-ss	っs
-tt	っt
-xx	っx
-zz	っz
+bb	っ	b
+cc	っ	c
+ff	っ	f
+kk	っ	k
+pp	っ	p
+qq	っ	q
+ss	っ	s
+tt	っ	t
+xx	っ	x
+zz	っ	z
 b'yi	びぃ
 c'a	つぁ
 c'e	つぇ
@@ -673,26 +673,6 @@ yx	えき
 zc	ぞく
 zt	ざつ
 zx	ぜき
-cbcr	こちら
-cbcrd	こちらで
-cbcrg	こちらが
-cbcrh	こちらへ
-cbcrkr	こちらから
-cbcrn	こちらに
-cbk	ここ
-cbkd	ここで
-cbkg	ここが
-cbkh	ここへ
-cbkkr	ここから
-cbkn	ここに
-cbn	この
-cbr	これ
-cbrd	これで
-cbrdh	これでは
-cbrg	これが
-cbrh	これは
-cbrn	これに
-cbrw	これを
 cdsf	ください
 dbcr	どちら
 dbcrd	どちらで
@@ -753,6 +733,26 @@ jkg	いかが
 jrlb	やれば
 jrr	やる
 jwr	より
+kbcr	こちら
+kbcrd	こちらで
+kbcrg	こちらが
+kbcrh	こちらへ
+kbcrkr	こちらから
+kbcrn	こちらに
+kbk	ここ
+kbkd	ここで
+kbkg	ここが
+kbkh	ここへ
+kbkkr	ここから
+kbkn	ここに
+kbn	この
+kbr	これ
+kbrd	これで
+kbrdh	これでは
+kbrg	これが
+kbrh	これは
+kbrn	これに
+kbrw	これを
 krn	かな
 krr	から
 krt	かた
