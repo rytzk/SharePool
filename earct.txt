@@ -616,6 +616,8 @@ zc	ぞく
 sz	そつ
 tq	たく
 dq	だく
+thc	たち
+dhc	だち
 tht	たつ
 dt	だつ
 ck	ちく
@@ -697,6 +699,7 @@ vbrn	あれに
 vbrh	あれは
 vbrw	あれを
 jkg	いかが
+grr	がある
 krt	かた
 krn	かな
 krr	から
@@ -716,6 +719,12 @@ kbcrn	こちらに
 kbcrh	こちらへ
 kwt	こと
 gwt	ごと
+kwtg	ことが
+gwtg	ごとが
+kwtn	ことに
+kwtnh	ことには
+kwth	ことは
+gwth	ごとは
 kbn	この
 kbr	これ
 kbrg	これが
@@ -738,6 +747,7 @@ xkx	しかし
 xt	した
 xtg	したが
 xtr	したら
+xmx	しまう
 xmxt	しました
 xmxtk	しましたか
 xmxtg	しましたが
@@ -787,6 +797,7 @@ dblw	だれを
 drv	だろう
 drr	である
 drlb	であれば
+dkmsd	できません
 dkrr	できる
 dklb	できれば
 dxt	でした
@@ -798,7 +809,8 @@ ds	です
 dsk	ですか
 dsg	ですが
 dst	ですと
-dhw	では
+dhh	では
+dhm	でも
 tjw	という
 twr	とおり
 twx	とき
@@ -829,7 +841,7 @@ twnrj	となり
 twnrr	となる
 twnlb	となれば
 dbn	どの
-thw	とは
+twh	とは
 dbr	どれ
 dbrg	どれが
 dbrd	どれで
@@ -845,11 +857,12 @@ nrl	なれ
 nrlb	なれば
 njtjt	について
 njtk	につき
-nhw	には
+njh	には
 njrj	により
 njrr	による
 njlb	によれば
 nwd	ので
+nwh	のは
 nhv	のほう
 nhvn	のほうに
 nhvh	のほうへ
@@ -886,6 +899,7 @@ wtst	わたしと
 wtsn	わたしに
 wtsb	わたしの
 wtsh	わたしは
+wtsm	わたしも
 wtsw	わたしを
 thx	ありがとう
 'k	っく
