@@ -818,6 +818,7 @@ sbxt	そして
 srl	され
 srlr	される
 srlt	された
+srll	されて
 srm	さま
 srs	させ
 srslb	させれば
@@ -915,3 +916,4 @@ why	なぜ
 ''j	↓
 ''k	↑
 ''l	→
+''/	／
