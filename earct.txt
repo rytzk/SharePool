@@ -224,13 +224,12 @@ lo	りょ
 rjo	りょ
 le	れ
 cc	っ	c
-ff	っ	f
 kk	っ	k
 pp	っ	p
 qq	っ	q
 ss	っ	s
 tt	っ	t
-zz	っ	z
+xx	っ	x
 v'u	ヴ
 v'a	ヴぁ
 v'i	ヴぃ
@@ -542,7 +541,7 @@ pjw	ぴゅう
 hjv	ひょう
 bjv	びょう
 pjv	ぴょう
-fy	ふぁい
+ff	ふぁい
 hw	ふう
 bw	ぶう
 pw	ぷう
@@ -602,9 +601,9 @@ kz	こつ
 sq	さく
 st	さつ
 zt	ざつ
-xx	しき
+sjx	しき
 jx	じき
-shs	しつ
+sjs	しつ
 zs	じつ
 xq	しゃく
 jq	じゃく
@@ -617,7 +616,7 @@ jc	じょく
 sx	せき
 zx	ぜき
 xz	せつ
-jz	ぜつ
+zz	ぜつ
 sc	そく
 zc	ぞく
 sz	そつ
