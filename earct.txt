@@ -361,6 +361,7 @@ shn	しゃん
 xn	しゃん
 jn	じゃん
 shb	しゅん
+xb	しゅん
 jb	じゅん
 shm	しょん
 xp	しょん
