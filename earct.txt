@@ -631,7 +631,6 @@ ck	ちく
 cq	ちゃく
 chc	ちょく
 tx	てき
-dx	でき
 tz	てつ
 tc	とく
 dc	どく
@@ -819,6 +818,7 @@ drv	だろう
 drtt	であった
 drr	である
 drlb	であれば
+dk	でき
 dkn	できな
 dknf	できない
 dknktt	できなかった
