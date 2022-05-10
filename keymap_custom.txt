@@ -3,7 +3,7 @@ Prediction	Ctrl Delete	DeleteSelectedCandidate
 Suggestion	Ctrl n	PredictAndConvert
 Suggestion	Down	PredictAndConvert
 Suggestion	Shift Enter	CommitFirstSuggestion
-DirectInput	Ctrl r	Reconvert
+DirectInput	Ctrl Shift s	Reconvert
 DirectInput	Henkan	IMEOn
 DirectInput	Muhenkan	IMEOff
 Precomposition	Backspace	Revert
@@ -24,8 +24,10 @@ Composition	Ctrl h	Backspace
 Composition	Ctrl i	ConvertToFullKatakana
 Composition	Ctrl j	Commit
 Composition	Ctrl m	Commit
+Composition	Ctrl o	ConvertToHalfKatakana
 Composition	Ctrl s	PredictAndConvert
 Composition	Ctrl t	ConvertToHalfAlphanumeric
+Composition	Ctrl u	ConvertToHiragana
 Composition	Delete	Delete
 Composition	End	MoveCursorToEnd
 Composition	Enter	Commit
@@ -42,25 +44,28 @@ Composition	Home	MoveCursorToBeginning
 Composition	Left	MoveCursorLeft
 Composition	Muhenkan	IMEOff
 Composition	Right	MoveCursorRight
+Composition	Shift Backspace	Backspace
 Composition	Space	Convert
 Composition	Tab	Convert
 Conversion	Backspace	Cancel
 Conversion	Ctrl a	SegmentFocusFirst
-Conversion	Ctrl b	MoveCursorLeft
+Conversion	Ctrl b	SegmentFocusLeft
 Conversion	Ctrl d	Delete
 Conversion	Ctrl e	SegmentFocusLast
-Conversion	Ctrl f	MoveCursorRight
-Conversion	Ctrl h	SegmentWidthShrink
+Conversion	Ctrl f	SegmentFocusLeft
+Conversion	Ctrl h	Cancel
 Conversion	Ctrl i	ConvertToFullKatakana
-Conversion	Ctrl l	SegmentWidthExpand
+Conversion	Ctrl j	SegmentWidthExpand
+Conversion	Ctrl k	SegmentWidthShrink
 Conversion	Ctrl Left	SegmentFocusFirst
 Conversion	Ctrl m	Commit
 Conversion	Ctrl n	ConvertNext
-Conversion	Ctrl o	SegmentWidthExpand
+Conversion	Ctrl o	ConvertToHalfKatakana
 Conversion	Ctrl p	ConvertPrev
 Conversion	Ctrl q	SegmentWidthShrink
 Conversion	Ctrl Right	SegmentFocusLast
 Conversion	Ctrl s	SegmentFocusLeft
+Conversion	Ctrl u	ConvertToHiragana
 Conversion	Ctrl w	SegmentWidthExpand
 Conversion	Ctrl x	ConvertNext
 Conversion	Down	ConvertNext
