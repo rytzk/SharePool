@@ -851,7 +851,7 @@ spkn	そこに
 spkh	そこへ
 spkmd	そこまで
 spkmdh	そこまでは
-sxd	そして
+spxd	そして
 spcr	そちら
 spcrg	そちらが
 spcrkr	そちらから
@@ -963,6 +963,7 @@ njh	には
 njrj	により
 njrr	による
 njlb	によれば
+njtt	によって
 nhd	ので
 nhh	のは
 nhv	のほう
@@ -975,6 +976,7 @@ mxt	ました
 mxtg	ましたが
 mxtr	ましたら
 mxd	まして
+mxdh	ましては
 mxv	ましょう
 mxvk	ましょうか
 ms	ます
