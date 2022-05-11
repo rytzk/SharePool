@@ -836,6 +836,10 @@ xmsnd	しますので
 xmsn	しません
 xmsng	しませんか
 xmsnk	しませんが
+xjv	しよう
+xjvk	しようか
+xjvkt	しようかと
+xjvt	しようと
 sr	する
 srnd	するので
 srlb	すれば
