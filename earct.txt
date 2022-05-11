@@ -984,6 +984,7 @@ msg	ますが
 mst	ますと
 msnd	ますので
 msn	ません
+msng	ませんが
 mrt	また
 mrd	まだ
 mhd	まで
@@ -1026,6 +1027,7 @@ dy	にち
 vw	びゅー
 fw	ふゅー
 'ng	んぐ
+'nd	んど
 rr	ー
 ''-	-
 ''/	／
