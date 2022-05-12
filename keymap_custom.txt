@@ -94,6 +94,8 @@ Conversion	Up	ConvertPrev
 Conversion	Muhenkan	ConvertToHalfAlphanumeric
 Conversion	Henkan	ConvertToHiragana
 Conversion	Shift Henkan	ConvertToFullKatakana
+Precomposition	Ctrl Shift Henkan	LaunchConfigDialog
+DirectInput	Ctrl Shift Henkan	LaunchConfigDialog
 Composition	Kanji	IMEOff
 Composition	OFF	IMEOff
 Composition	ON	IMEOn
