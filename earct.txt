@@ -481,7 +481,7 @@ bd	べん
 pd	ぺん
 hm	ほん
 bm	ぼん
-phm	ぽん
+pm	ぽん
 mn	まん
 mjd	みぇん
 mjn	みゃん
@@ -822,6 +822,7 @@ shlr	される
 sks	しかし
 xt	した
 xtg	したが
+xtnd	したので
 xtr	したら
 xtl	して
 xtlt	していた
@@ -830,6 +831,7 @@ xtlnfg	していないが
 xtlms	しています
 xtlmsg	していますが
 xtlmsd	していません
+xtlmsdk	していませんか
 xtlmsdg	していませんが
 xtlr	している
 xtlrg	しているが
@@ -842,6 +844,7 @@ xmfb	しまえば
 xmxt	しました
 xmxtk	しましたか
 xmxtg	しましたが
+xmxtnd	しましたので
 xmxtr	しましたら
 xmxtl	しまして
 xmxtlh	しましては
@@ -919,10 +922,13 @@ dknf	できない
 dknktt	できなかった
 dkms	できます
 dkmsd	できません
+dkmsdk	できませんか
+dkmsdg	できませんが
 dkr	できる
 dklb	できれば
 dxt	でした
 dxtg	でしたが
+dxtnd	でしたので
 dxtr	でしたら
 dxtl	でして
 dxv	でしょう
@@ -941,7 +947,10 @@ tjw	という
 tjhb	といえば
 thr	とおり
 tk	とき
-tpk	とこ
+tkn	ときに
+tknh	ときには
+tkh	ときは
+thk	とこ
 dpk	どこ
 dpkg	どこが
 dpkd	どこで
@@ -950,10 +959,10 @@ dpks	どこの
 dpkh	どこへ
 dpkmd	どこまで
 dpkmdm	どこまでも
-tpkr	ところ
-dpkr	どころ
-tpkrg	ところが
-dpkrk	どころか
+thkr	ところ
+dhkr	どころ
+thkrg	ところが
+dhkrk	どころか
 dpcr	どちら
 dpcrg	どちらが
 dpcrd	どちらで
@@ -1015,6 +1024,7 @@ hjt	ひと
 hhd	ほど
 mxt	ました
 mxtg	ましたが
+mxtnd	ましたので
 mxtr	ましたら
 mxtl	まして
 mxtlh	ましては
@@ -1024,9 +1034,11 @@ ms	ます
 mhz	まず
 msk	ますか
 msg	ますが
+msdxvk	ますでしょうか
 mst	ますと
 msnd	ますので
 msd	ません
+msdk	ませんか
 msdg	ませんが
 mht	また
 mx	まだ
