@@ -399,7 +399,7 @@ gd	げん
 km	こん
 gm	ごん
 sn	さん
-zn	さん
+zn	ざん
 sjd	しぇん
 xd	しぇん
 jd	じぇん
@@ -917,6 +917,8 @@ drj	であり
 drr	である
 drlb	であれば
 dk	でき
+dkz	できず
+dkzn	できずに
 dkn	できな
 dknf	できない
 dknktt	できなかった
