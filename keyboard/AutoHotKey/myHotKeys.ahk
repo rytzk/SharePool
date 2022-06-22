@@ -1,107 +1,66 @@
-; #########################################################################################
-; jis2us
-; #########################################################################################
-
+#Persistent
+#SingleInstance, Force
+#NoEnv
 #UseHook
+#InstallKeybdHook
+#InstallMouseHook
+#HotkeyInterval, 2000
+#MaxHotkeysPerInterval,200
+Process, Priority,, Realtime2
+SendMode, Input
+SetWorkingDir %A_ScriptDir%
+SetTitleMatchMode, 2
 
- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- ; 1’i–Ú
- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- VKF4::Send,{``}    ;         ”¼Šp/‘SŠp     -> `
- +VKF4::Send,{~}    ; Shift + ”¼Šp/‘SŠp     -> ~
- +2::Send,{@}       ; Shift + 2         ["] -> @
- +6::Send,{^}       ; Shift + 6         [&] -> ^
- +7::Send,{&}       ; Shift + 7         ['] -> &
- +8::Send,{*}       ; Shift + 8         [(] -> *
- +9::Send,{(}       ; Shift + 9         [)] -> (
- +0::Send,{)}       ; Shift + 0         [ ] -> )
- +-::Send,{_}       ; Shift + -         [=] -> _
- ^::Send,{=}        ;                   [^] -> =
- +^::Send,{+}       ; Shift + ^         [~] -> +
- \::Send,{BS}       ;                   [\] -> Backspace
+;; -------------------------------
+;; jis2us
+;; -------------------------------
 
- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- ; 2’i–Ú
- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- @::[              ;                   [@] -> [
- +@::{             ; Shift + @         [`] -> {
- [::]              ;                   [[] -> ]
- +[::Send,{}}      ; Shift + [         [{] -> }
+;;; -- 1st row
 
- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- ; 3’i–Ú
- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- +;::Send,{:}      ; Shift + ;         [+] -> :
- :::Send,{'}       ;                   [:] -> '
- *::Send,{"}       ; Shift + :         [*] -> "
- ]::ENTER          ;                   []] -> ENTER
- +]::+ENTER        ; Shift + ]         [}] -> Shift + ENTER
- _::Send,{|}       ; Shift + \         [_] -> |
+  VKF4::Send,{``}           ;         åŠè§’/å…¨è§’     -> `
+  +VKF4::Send,{~}           ; Shift + åŠè§’/å…¨è§’     -> ~
+  +2::Send,{@}              ; Shift + 2         ["] -> @
+  +6::Send,{^}              ; Shift + 6         [&] -> ^
+  +7::Send,{&}              ; Shift + 7         ['] -> &
+  +8::Send,{*}              ; Shift + 8         [(] -> *
+  +9::Send,{(}              ; Shift + 9         [)] -> (
+  +0::Send,{)}              ; Shift + 0         [ ] -> )
+  +-::Send,{_}              ; Shift + -         [=] -> _
+  ^::Send,{=}               ;                   [^] -> =
+  +^::Send,{+}              ; Shift + ^         [~] -> +
+
+;; -- 2nd row
+
+  @::[                      ;                   [@] -> [
+  +@::{                     ; Shift + @         [`] -> {
+  [::]                      ;                   [[] -> ]
+  +[::Send,{}}              ; Shift + [         [{] -> }
+
+;; -- 3rd row
+
+  +;::Send,{:}              ; Shift + ;         [+] -> :
+  :::Send,{'}               ;                   [:] -> '
+  *::Send,{"}               ; Shift + :         [*] -> "
 
 
+;; -------------------------------
+;; alt-ime
+;; -------------------------------
 
-; #########################################################################################
-; alt-ime
-; #########################################################################################
-
-; ¶‰E Alt ƒL[‚Ì‹ó‘Å‚¿‚Å IME ‚Ì OFF/ON ‚ğØ‚è‘Ö‚¦‚é
-;
-; ¶ Alt ƒL[‚Ì‹ó‘Å‚¿‚Å IME ‚ğu‰p”v‚ÉØ‚è‘Ö‚¦
-; ‰E Alt ƒL[‚Ì‹ó‘Å‚¿‚Å IME ‚ğu‚©‚Èv‚ÉØ‚è‘Ö‚¦
-; Alt ƒL[‚ğ‰Ÿ‚µ‚Ä‚¢‚éŠÔ‚É‘¼‚ÌƒL[‚ğ‘Å‚Â‚Æ’Êí‚Ì Alt ƒL[‚Æ‚µ‚Ä“®ì
-;
-; Author:     karakaram   http://www.karakaram.com/alt-ime-on-off
-
-#Include IME.ahk
-
-; Razer Synapse‚È‚ÇAƒL[ƒJƒXƒ^ƒ}ƒCƒYŒn‚Ìƒc[ƒ‹‚ğ•¹—p‚µ‚Ä‚¢‚é‚Æ‚«‚ÌƒGƒ‰[‘Îô
-#MaxHotkeysPerInterval 350
-
-; ã•”ƒƒjƒ…[‚ªƒAƒNƒeƒBƒu‚É‚È‚é‚Ì‚ğ—}§
-*~LAlt::Send {Blind}{vk07}
-*~RAlt::Send {Blind}{vk07}
-
-; ¶ Alt ‹ó‘Å‚¿‚Å IME ‚ğ OFF
-LAlt up::
+  *~LAlt::Send,{Blind}{vk07}
+  LAlt up::
     if (A_PriorHotkey == "*~LAlt")
     {
-        IME_SET(0)
+       Send,{VK1D}
     }
     Return
 
-; ‰E Alt ‹ó‘Å‚¿‚Å IME ‚ğ ON
-RAlt up::
+  *~RAlt::Send,{Blind}{vk07}
+  RAlt up::
     if (A_PriorHotkey == "*~RAlt")
     {
-        IME_SET(1)
+        Send,{VK1C}
     }
     Return
 
-
-; #########################################################################################
-; sands
-; #########################################################################################
-
-#InstallKeybdHook
-  $Space::
-      if SandS_guard = True           ;ƒXƒy[ƒXƒL[ƒK[ƒh
-          return
-      SandS_guard = True              ;ƒXƒy[ƒXƒL[‚ÉƒK[ƒh‚ğ‚©‚¯‚é
-      Send,{Shift Down}               ;ƒVƒtƒgƒL[‚ğ‰¼‘z“I‚É‰Ÿ‚µ‰º‚°‚é
-      ifNotEqual SandS_key            ;Šù‚É“ü—ÍÏ‚İ‚Ìê‡‚Í”²‚¯‚é
-          return
-      SandS_key=
-      Input,SandS_key,L1 V            ;1•¶š“ü—Í‚ğó‚¯•t‚¯i“ü—Í—L–³”»’è—pj
-      return
-
-  $Space up::                         ;ƒXƒy[ƒX‰ğ•ú
-      input                           ;Šù‘¶‚ÌInputƒRƒ}ƒ“ƒh‚ÌI—¹
-      if SandS_guard = False          ;ƒK[ƒh‚ª‚©‚©‚Á‚Ä‚È‚©‚Á‚½ê‡iCüƒL[{Space‚ÌƒŠƒŠ[ƒXj
-          return
-      SandS_guard = False             ;ƒXƒy[ƒXƒL[ƒK[ƒh‚ğŠO‚·
-      Send,{Shift Up}                 ;ƒVƒtƒgƒL[‰ğ•ú
-      ifEqual SandS_key               ;SandS•¶š“ü—Í‚È‚µ
-          Send,{Space}                ;ƒXƒy[ƒX‚ğ”­Ë
-      SandS_key=
-      return
 
